@@ -11,6 +11,6 @@ int main(void) {
     return 1;
   }
   int res = ((h * 60 + m) * 60 + s) * 1000;
-  printf("%d\n", res);
+  printf("result = %d\n", res);
   return 0;
 }
